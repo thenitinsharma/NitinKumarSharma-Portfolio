@@ -1,0 +1,159 @@
+================================================================================
+                         macOS WEB PORTFOLIO - KEYBOARD SHORTCUTS
+================================================================================
+
+Last Updated: January 2025
+Portfolio: Sudhanshu Khosla - Full Stack Developer
+
+================================================================================
+                              SYSTEM SHORTCUTS
+================================================================================
+
+Spotlight Search
+  ⌘ + Space              Open Spotlight search (find apps, files, commands)
+  Esc                    Close Spotlight
+
+App Management
+  ⌘ + Click              Open app without animation
+  ⌘ + W                  Close active window
+  ⌘ + M                  Minimize active window
+  ⌘ + , (comma)          Open Settings
+  ⌘ + Q                  Quit current app
+
+Window Management
+  ⌘ + N                  New window (Finder, Terminal)
+  ⌘ + T                  New tab (Terminal)
+  ⌘ + +                  Zoom in
+  ⌘ + -                  Zoom out
+  ⌘ + 0                  Reset zoom
+
+Navigation
+  ⌘ + [                  Go back (Finder, browser-style apps)
+  ⌘ + ]                  Go forward
+  ⌘ + Up                 Go to parent folder (Finder)
+  ⌘ + Down               Open selected item (Finder)
+
+================================================================================
+                              APP SHORTCUTS
+================================================================================
+
+TERMINAL
+  ⌘ + K                  Clear terminal
+  ↑ / ↓                  Navigate command history
+  Tab                    Auto-complete commands
+  Ctrl + C               Cancel current command
+  
+  Available Commands:
+    ls, dir              List directory contents
+    cd <folder>          Change directory
+    pwd                  Print working directory
+    cat <file>           Display file contents
+    open <app>           Open an application
+    clear                Clear screen
+    whoami               Display user info
+    date                 Show current date/time
+    help                 Show available commands
+
+FINDER
+  ⌘ + Delete             Move to trash
+  ⌘ + Shift + N          New folder
+  ⌘ + I                  Get info
+  Space                  Quick look preview
+  Return                 Rename selected item
+
+JOURNAL
+  ⌘ + F                  Search entries
+  ⌘ + N                  Create new entry
+  ⌘ + S                  Save entry
+
+CAMERA
+  Space                  Take photo
+  ⌘ + F                  Flip camera
+  ⌘ + G                  Open gallery
+
+SPOTIFY
+  Space                  Play/Pause
+  ⌘ + →                  Next track
+  ⌘ + ←                  Previous track
+  ⌘ + ↑                  Volume up
+  ⌘ + ↓                  Volume down
+
+================================================================================
+                              THEME & DISPLAY
+================================================================================
+
+  ⌘ + Shift + T          Toggle dark/light mode
+  ⌘ + Shift + F          Toggle fullscreen
+  ⌘ + Option + Esc       Force quit dialog
+
+================================================================================
+                              DOCK SHORTCUTS
+================================================================================
+
+  1-9                    Open app at dock position 1-9
+  ⌘ + Click on Dock      Reveal app in Finder
+  Ctrl + Click on Dock   Show context menu
+
+================================================================================
+                              LAUNCHPAD
+================================================================================
+
+  F4 or Pinch gesture    Open Launchpad
+  Esc or Click outside   Close Launchpad
+  Type                   Search apps in Launchpad
+
+================================================================================
+                              ACCESSIBILITY
+================================================================================
+
+  ⌘ + Option + +         Increase text size
+  ⌘ + Option + -         Decrease text size
+  ⌘ + Option + 0         Reset text size
+
+================================================================================
+                              DEVELOPER MODE
+================================================================================
+
+  F12                    Toggle developer console (if enabled)
+  ⌘ + Option + I         Inspect element
+  ⌘ + R                  Reload page
+  ⌘ + Shift + R          Hard reload
+
+================================================================================
+                              TIPS
+================================================================================
+
+1. Most windows can be dragged by the title bar
+2. Resize windows from any corner or edge
+3. Double-click title bar to maximize/minimize
+4. Right-click on desktop for context menu
+5. Hover over dock icons for magnification effect
+6. Click the Apple logo for system menu
+7. Use Spotlight (⌘+Space) for quick app launching
+8. Windows users: Use Ctrl instead of ⌘ (Command)
+
+================================================================================
+                              ABOUT THIS PORTFOLIO
+================================================================================
+
+This macOS web clone portfolio was built with:
+  • React + TypeScript + Vite
+  • Tailwind CSS for styling
+  • Framer Motion for animations
+  • Lucide React for icons
+
+All apps are fully functional:
+  • Finder - Browse file system
+  • Terminal - Execute real commands
+  • Camera - Capture photos (requires permission)
+  • Journal - Read and search entries
+  • Spotify - Embedded music player
+  • Projects - Browse portfolio projects
+  • About Me - Developer information
+  • Contact - Get in touch
+  • Resume - View/download CV
+  • Settings - Customize experience
+
+================================================================================
+                         © 2025 Sudhanshu Khosla - All Rights Reserved
+================================================================================
