@@ -108,7 +108,7 @@ const PROJECTS: Project[] = [
     description: "Transform casual workplace communications into professional prose",
     longDescription:
       "ProText-AI is a privacy-first Chrome extension that transforms casual communications into professional prose using Google Gemini AI. Featuring universal text detection across platforms like Email and LinkedIn, the extension integrates seamlessly with a one-click conversion utility. Designed as a free, open-source tool, it utilizes user API keys for direct and secure client-side AI processing.",
-    image: "/projects/Screenshot (1183).png",
+    image: "/projects/Screenshot 2026-06-05 211443.png",
     techStack: [
       "Google Gemini AI",
       "JavaScript",
