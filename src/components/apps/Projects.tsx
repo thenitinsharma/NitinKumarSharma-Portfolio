@@ -104,7 +104,7 @@ const PROJECTS: Project[] = [
     description: "AI-driven context-aware excuse generator with believability scoring",
     longDescription:
       "Intelligent Excuse Generator is an AI-powered system that generates context-aware excuses with believability scoring based on situation, category, and tone inputs. Supports both text and voice input processing via Speech-to-Text APIs, and provides bilingual outputs in Hindi and English using advanced NLP techniques.",
-    image: "/projects/Screenshot (1182).png",
+    image: "/projects/Screenshot 2025-09-03 205209.png",
     techStack: [
       "Python",
       "NLP",
