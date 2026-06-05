@@ -34,6 +34,40 @@ interface Project {
 }
 
 const PROJECTS: Project[] = [
+    {
+    id: "ai-guruji",
+    name: "AI Guruji",
+    description: "AI-powered Hindi tutoring app for UP Board students (Class 9–12)",
+    longDescription:
+      "AI Guruji is a multi-agent AI tutoring platform built for UP Board students in Hindi/Hinglish. It features a doubt-solving agent, adaptive MCQ quiz generation, learning gap detection, and auto-generated parent reports — all powered by Groq's Llama 3.3 70B model via a client-side SPA architecture.",
+    image: "/projects/Screenshot 2026-06-05 200843",
+    techStack: [
+      "Groq API",
+      "Llama 3.3 70B",
+      "Vanilla JS",
+      "FastAPI",
+      "Python",
+      "HTML/CSS",
+    ],
+    category: "AI & EdTech",
+    year: "2025",
+    github: "https://github.com/thenitinsharma/AI-Guruji",
+    demo: "https://ai-guruji-4rtx.vercel.app/",
+    metrics: [
+      { label: "Agents", value: "5" },
+      { label: "Target", value: "UP Board" },
+      { label: "Language", value: "Hindi" },
+    ],
+    featured: true,
+    highlights: [
+      "Built multi-agent AI system (doubt solver, quiz generator, gap detector, motivator, parent report) using Groq's Llama 3.3 70B with role-specific system instructions",
+      "Designed adaptive MCQ quiz pipeline with JSON parsing, per-question explanations, and real-time topic-wise performance tracking",
+      "Delivered full Hindi/Hinglish AI responses targeting Tier 2/3 city students preparing for UP Board Class 9–12 exams",
+      "Deployed as a static SPA on Vercel with no backend, using client-side Groq API calls and conversation memory (last 10 turns)",
+    ],
+    gradient: "from-orange-500 to-green-600",
+    iconColor: "text-orange-500",
+  },
   {
     id: "sukoon-ai",
     name: "SukoonAI",
