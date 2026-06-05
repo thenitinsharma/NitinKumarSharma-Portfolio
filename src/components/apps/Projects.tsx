@@ -135,7 +135,7 @@ const PROJECTS: Project[] = [
     description: "CLI tool automating web project boilerplate creation",
     longDescription:
       "WebGenie is a Python-based Command Line Interface tool that automates the generation of web projects, setting up HTML, CSS, JavaScript, and database boilerplates in a single command. It reduces manual project setup time by 75%, allowing developers to focus immediately on core coding.",
-    image: "/projects/Screenshot (1184).png",
+    image: "/projects/Screenshot 2026-06-05 201821.png",
     techStack: [
       "Python",
       "CLI Development",
