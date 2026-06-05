@@ -40,7 +40,7 @@ const PROJECTS: Project[] = [
     description: "AI-powered mental health platform using Google MedGemini and Grok API",
     longDescription:
       "SukoonAI is an empathetic, real-time conversational support platform built using Google MedGemini and Grok API. It is designed to provide responsive conversational support, emotional pattern recognition, and robust user authentication. Engineered as a full-stack Next.js 14 application with optimized server-side rendering and HIPAA-compliant authentication, the UI achieved a 98% accessibility score.",
-    image: "/projects/Screenshot (1185).png",
+    image: "/projects/Screenshot 2026-06-05 200823.png",
     techStack: [
       "Google MedGemini",
       "Grok API",
