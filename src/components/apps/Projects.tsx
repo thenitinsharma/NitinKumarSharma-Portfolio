@@ -164,7 +164,7 @@ const PROJECTS: Project[] = [
   description: "AI-powered Hindi tutoring app for UP Board students (Class 9–12)",
   longDescription:
     "AI Guruji is a multi-agent AI tutoring platform built for UP Board students in Hindi/Hinglish. It features a doubt-solving agent, adaptive MCQ quiz generation, learning gap detection, and auto-generated parent reports — all powered by Groq's Llama 3.3 70B model via a client-side SPA architecture.",
-  image: "/projects/ai-guruji.png",
+  image: "/projects/Screenshot 2026-06-05 200843.png",
   techStack: [
     "Groq API",
     "Llama 3.3 70B",
