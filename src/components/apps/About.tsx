@@ -30,7 +30,7 @@ const SOCIAL_LINKS = [
 
 const STATS = [
   { label: "Projects", value: "4+" },
-  { label: "Internships", value: "1" },
+  { label: "Internships", value: "2" },
   { label: "Languages", value: "3" },
   { label: "Skills", value: "15+" },
 ];
