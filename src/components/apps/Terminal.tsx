@@ -66,7 +66,40 @@ and machine learning. Seeking internship or entry-level opportunities.`,
   },
   "~/projects": {
     type: "directory",
-    children: ["SukoonAI.txt", "ProTextAI.txt", "ExcuseGenerator.txt", "WebGenie.txt"],
+    children: [
+      "AIGuruji.txt",
+      "AIResearcherAgent.txt",
+      "AIResearchAssistant.txt",
+      "ChurnPrediction.txt",
+      "SukoonAI.txt",
+      "ProTextAI.txt",
+      "ExcuseGenerator.txt",
+      "WebGenie.txt",
+    ],
+  },
+  "~/projects/AIGuruji.txt": {
+    type: "file",
+    content: `AI Guruji - Multi-Agent Hindi EdTech Platform (2025)
+Tech: Groq API, Llama 3.3 70B, Vanilla JS, FastAPI, Python
+Features: Doubt-solving agent, adaptive MCQ generation, learning gap detection, Hindi/Hinglish.`,
+  },
+  "~/projects/AIResearcherAgent.txt": {
+    type: "file",
+    content: `AI Researcher Agent - Autonomous Research & LaTeX Agent (2025)
+Tech: LangGraph, FastAPI, Groq API, Next.js 14, Python, Tectonic LaTeX, arXiv API
+Features: Autonomous arXiv search, PDF text parsing, LaTeX-to-PDF paper synthesis, BYO Groq key.`,
+  },
+  "~/projects/AIResearchAssistant.txt": {
+    type: "file",
+    content: `AI Research Assistant System - NLP & RAG Platform over 15,000 Papers (2025)
+Tech: Sentence Transformers, FAISS, FastAPI, Next.js 14, BART, BERTopic, KeyBERT, Groq API
+Features: Semantic vector search, abstract summarization, entity typing, topic clustering, grounded RAG.`,
+  },
+  "~/projects/ChurnPrediction.txt": {
+    type: "file",
+    content: `Telco Churn Prediction & Customer Segmentation (2025)
+Tech: Python, Scikit-Learn, XGBoost, K-Means Clustering, Pandas, NumPy
+Features: 0.857 ROC AUC, 77.3% recall, class-imbalance tuning, 3 behavioral customer segments.`,
   },
   "~/projects/SukoonAI.txt": {
     type: "file",
@@ -129,7 +162,18 @@ Features: Automatic HTML/CSS/JS boilerplate, reduces setup time by 75%.`,
   },
   "~/experience": {
     type: "directory",
-    children: ["LaunchEd_Global.txt"],
+    children: ["CBSOT_AI_Engineer.txt", "LaunchEd_Global.txt"],
+  },
+  "~/experience/CBSOT_AI_Engineer.txt": {
+    type: "file",
+    content: `AI Engineer Intern
+Coding Blocks School of Technology (CBSOT) | June 2026 - July 2026 (Online)
+
+- Engineered end-to-end AI/ML systems: tabular predictive modeling, RAG pipelines, and agentic workflows.
+- Developed Telco Churn Predictor with Random Forest, XGBoost & SMOTE.
+- Built AI Research Assistant with FAISS vector search, Sentence Transformers, BART & Groq RAG.
+- Architected autonomous AI Researcher Agent using LangGraph, arXiv API, and LaTeX PDF compilation.
+- Stack: LangGraph, Groq API, Gemini 2.5, FastAPI, Next.js, FAISS, XGBoost, Render, Vercel.`,
   },
   "~/experience/LaunchEd_Global.txt": {
     type: "file",
@@ -310,10 +354,14 @@ export function Terminal({ isDark }: TerminalProps) {
       case "projects":
         return [
           "\x1b[33mNitin's Projects:\x1b[0m",
-          "1. SukoonAI          - Mental Health Platform",
-          "2. ProText-AI        - Chrome Extension",
-          "3. Excuse Generator  - Believability Excuse System",
-          "4. WebGenie          - CLI Boilerplate Builder",
+          "1. AI Guruji             - Hindi EdTech Multi-Agent App",
+          "2. AI Researcher Agent   - Autonomous Research & LaTeX Compiler",
+          "3. AI Research Assistant - Semantic Search & RAG over 15k Papers",
+          "4. Churn Prediction      - IBM Telco ML & Customer Segmentation",
+          "5. SukoonAI              - Mental Health Platform",
+          "6. ProText-AI            - Chrome Extension",
+          "7. Excuse Generator      - Believability Excuse System",
+          "8. WebGenie              - CLI Boilerplate Builder",
           "",
           "Use 'cd projects' then 'ls' to explore.",
         ];
@@ -333,7 +381,10 @@ export function Terminal({ isDark }: TerminalProps) {
         return [
           "\x1b[1mWork Experience:\x1b[0m",
           "",
-          "\x1b[33mLaunchEd Global\x1b[0m (AI & ML Intern)",
+          "\x1b[32mCoding Blocks School of Technology (CBSOT)\x1b[0m (AI Engineer Intern | June 2026 - July 2026)",
+          "Engineered applied ML (Telco Churn with SMOTE), FAISS RAG, and LangGraph Agentic Systems.",
+          "",
+          "\x1b[33mLaunchEd Global\x1b[0m (AI & ML Intern | July 2025 - Sept 2025)",
           "Designed AI-based Excuse Generator using Python, NLP, and prompt engineering.",
         ];
 

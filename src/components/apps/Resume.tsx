@@ -113,6 +113,19 @@ const RESUME_DATA: ResumeSection[] = [
     type: "list",
     items: [
       {
+        heading: "AI Engineer Intern",
+        subHeading: "Coding Blocks School of Technology (CBSOT)",
+        period: "June 2026 - July 2026",
+        location: "Online",
+        bullets: [
+          "Engineered end-to-end AI systems spanning applied machine learning, NLP retrieval pipelines, and autonomous agentic workflows over a 6-week intensive program",
+          "Built Telco Customer Churn Prediction model using Random Forest and XGBoost with SMOTE class imbalance handling to maximize churn recall",
+          "Developed AI Research Assistant System combining FAISS vector search, Sentence Transformers, BART summarization, KeyBERT, BERTopic, and Groq-powered RAG",
+          "Architected autonomous AI Researcher Agent using LangGraph StateGraph, automating arXiv literature search, PDF parsing, and publication-ready LaTeX paper compilation",
+          "Deployed full-stack ML microservices and interactive frontends using FastAPI, Next.js, Docker, Render, and Vercel with Vercel Analytics integration",
+        ],
+      },
+      {
         heading: "AI & ML Training and Intern",
         subHeading: "LaunchEd Global",
         period: "July 2025 - Sept 2025",
@@ -130,6 +143,39 @@ const RESUME_DATA: ResumeSection[] = [
     title: "Projects",
     type: "list",
     items: [
+      {
+        heading: "AI Researcher Agent - Autonomous Research & LaTeX Paper Synthesis",
+        subHeading: "LangGraph, FastAPI, ChatGroq, Next.js 14, Tectonic LaTeX, arXiv API",
+        period: "2025",
+        bullets: [
+          "Engineered autonomous research agent with LangGraph StateGraph, ToolNode, and Groq-hosted models (openai/gpt-oss-120b)",
+          "Implemented autonomous tool-calling loop for querying arXiv API, extracting PDF text with PyPDF2, and compiling LaTeX into publication-ready PDFs",
+          "Designed server-side conversation state persistence using LangGraph's MemorySaver checkpointer keyed per thread ID",
+          "Built inline chat tool execution rendering (paper cards, extracted snippets, and direct PDF downloads) with Next.js 14, react-markdown, and remark-gfm",
+        ],
+      },
+      {
+        heading: "AI Research Assistant System - Semantic Search & RAG over 15,000 Papers",
+        subHeading: "Sentence Transformers, FAISS, FastAPI, Next.js 14, BART, BERTopic, KeyBERT, Groq API",
+        period: "2025",
+        bullets: [
+          "Built vector semantic search across 15,000+ ML arXiv papers using Sentence Transformers and a FAISS dense vector index",
+          "Integrated abstract summarization with facebook/bart-large-cnn and hybrid entity-tagged keyword extraction using KeyBERT with zero-shot classification",
+          "Developed an interactive RAG Q&A chatbot powered by Groq LLMs providing answer synthesis strictly grounded in retrieved paper citations",
+          "Architected split cloud deployment: Next.js 14 frontend on Vercel and containerized FastAPI ML microservice on Hugging Face Spaces Docker",
+        ],
+      },
+      {
+        heading: "Telco Customer Churn Prediction & Segmentation",
+        subHeading: "Python, Scikit-Learn, XGBoost, K-Means Clustering, Pandas, Seaborn",
+        period: "2025",
+        bullets: [
+          "Engineered end-to-end ML pipeline on 7,043 customer records with 20 working features, handling missing values, encoding, and class imbalance",
+          "Trained and evaluated Random Forest and XGBoost classifiers with grid search hyperparameter tuning, attaining 0.857 ROC AUC and 77.3% recall",
+          "Identified primary churn drivers: contract duration, customer tenure, monthly charges, payment methods, and fiber optic subscriptions",
+          "Developed K-Means customer segmentation over predicted churn probabilities, isolating 'High Risk New Customers' to guide proactive retention efforts",
+        ],
+      },
       {
         heading: "SukoonAI - Mental Health Support Platform",
         subHeading: "Google MedGemini, Grok API, Next.js, Shadcn UI",

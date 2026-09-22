@@ -28,6 +28,37 @@ interface Job {
 
 const EXPERIENCES: Job[] = [
   {
+    id: "cbsot",
+    company: "Coding Blocks School of Technology (CBSOT)",
+    role: "AI Engineer Intern",
+    type: "Internship",
+    location: "Online",
+    startDate: "June 2026",
+    endDate: "July 2026",
+    description: [
+      "Engineered end-to-end AI systems spanning applied ML, NLP retrieval pipelines, and autonomous agentic architectures over an intensive 6-week program",
+      "Built Telco Customer Churn Prediction model using Random Forest and XGBoost classifiers with SMOTE to resolve class imbalance and boost churn recall",
+      "Developed AI Research Assistant System combining FAISS vector search, Sentence Transformers, BART summarization, KeyBERT, BERTopic, and Groq RAG Q&A",
+      "Architected autonomous AI Researcher Agent using LangGraph StateGraph to automate arXiv literature search, PDF text extraction, and LaTeX paper synthesis",
+      "Integrated full-stack production services using FastAPI backends and Next.js frontends with deployments on Render, Vercel, and Vercel Analytics",
+    ],
+    technologies: [
+      "LangGraph",
+      "Groq API",
+      "Gemini 2.5",
+      "FastAPI",
+      "Next.js",
+      "FAISS",
+      "Sentence Transformers",
+      "BART",
+      "XGBoost",
+      "SMOTE",
+      "Render / Vercel",
+    ],
+    gradient: "from-emerald-500 to-teal-500",
+    iconColor: "text-emerald-500",
+  },
+  {
     id: "launched",
     company: "LaunchEd Global",
     role: "AI & ML Training and Intern",
@@ -45,7 +76,7 @@ const EXPERIENCES: Job[] = [
       "NLP",
       "AI/ML",
       "Prompt Engineering",
-      "Deployment"
+      "Deployment",
     ],
     gradient: "from-primary to-blue-500",
     iconColor: "text-primary",
@@ -119,7 +150,7 @@ const LEADERSHIP: LeadershipItem[] = [
 ];
 
 export function Experience() {
-  const [expandedJobs, setExpandedJobs] = useState<string[]>(["launched"]);
+  const [expandedJobs, setExpandedJobs] = useState<string[]>(["cbsot"]);
 
   const toggleExpanded = (jobId: string) => {
     setExpandedJobs((prev) =>
